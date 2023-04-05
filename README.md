@@ -35,3 +35,4 @@ GIMP may seem intimidating to some, but using raster graphics and an appropriate
  - path to selection -- click on path in the path window `> To Selection`
  - working on layers -- create new with `ctrl + shift + n`, change visibility in the layers menu, merge layer with the one below it (layer menu), selection to new layer `ctrl + shift + l > ctrl + shift + n` 
  - masking -- basically just make new layers and draw masks for the image with the many drawing tools. This + selection tool allows you to make any boolean operation between the layers
+ - rasterizing annotation -- pick a path, `To Selection` > bucket tool > fill with color (press shift to color the entire selection) > `File > Export` -- only visible layers are exported 
