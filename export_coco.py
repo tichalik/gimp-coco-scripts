@@ -31,7 +31,7 @@ def export_coco(output_dir, i_id):
         result = { "id":s_id, 
             "image_id":i_id, 
             "category_id": int(path.name.split()[0]), 
-            "b_box": [xmin,ymin,xmax, ymax],
+            "bbox": [xmin,ymin,xmax, ymax],
             "area": abs((xmax-xmin)*(ymax-ymin)),
             "segmentation" : segmentation,
             "iscrowd": 0
